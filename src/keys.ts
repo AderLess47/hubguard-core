@@ -1,7 +1,7 @@
 /**
  * Lokale Curve25519-Erzeugung des Basis-Kerns.
  *
- * Der private Schlüssel entsteht auf dem Gerät und verlsst es nie; das
+ * Der private Schlüssel entsteht auf dem Gerät und verlässt es nie; das
  * Backend bekommt ausschließlich den öffentlichen Schlüssel als Base64.
  * Es gibt genau eine Zufallsquelle (`crypto.getRandomValues` über WebCrypto)
  * und keine weitere Ableitung.
